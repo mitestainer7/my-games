@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif
+}
+
+main {
+  max-width: 900px;
+  margin: 32px auto;
+  display: grid;
+  gap: 24px;
+}
+
+section {
+  background-image: linear-gradient(180deg, #0c016e 0%, #0707dd 40%, #4f009f 100%);
+  color: white;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+section div {
+  background: #3b3b44;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+section p {
+  color: #7e7e7e;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  border-radius: 5px;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.lista-games img {
+  width: 120px;
+  border-radius: 8px;
+}
+
+.lista-sociais img {
+  width: 60px;
+}
+
+li {
+  border-radius: 8px;
+  transition: transform .3s;
+}
+
+.lista-games li:hover{
+  transform: scale(1.2);
+  box-shadow: 1px 1px 20px 5px #fff;
+}
+
+.lista-sociais li:hover {
+  transform: scale(1.2);
+}
