@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif
+  font-family: "Open Sans", sans-serif;
 }
 
 main {
@@ -12,8 +12,48 @@ main {
   gap: 24px;
 }
 
+header {
+  padding-top: 30px;
+  height: 150px;
+}
+
+header div {
+  width: 120px;
+  margin: auto;
+  background-image: linear-gradient(
+    180deg,
+    #0c016e 0%,
+    #0707dd 40%,
+    #4f009f 100%
+  );
+  border-radius: 50%;
+  display: flex;
+  padding: 4px;
+
+  transition: transform 0.3s;
+}
+
+header div:hover {
+  transform: scale(1.1);
+}
+
+header div img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.nome {
+  text-align: center;
+  color: #fff;
+}
+
 section {
-  background-image: linear-gradient(180deg, #0c016e 0%, #0707dd 40%, #4f009f 100%);
+  background-image: linear-gradient(
+    180deg,
+    #0c016e 0%,
+    #0707dd 40%,
+    #4f009f 100%
+  );
   color: white;
   padding: 6px;
   border-radius: 10px;
@@ -49,10 +89,10 @@ ul {
 
 li {
   border-radius: 8px;
-  transition: transform .3s;
+  transition: transform 0.3s;
 }
 
-.lista-games li:hover{
+.lista-games li:hover {
   transform: scale(1.2);
   box-shadow: 1px 1px 20px 5px #fff;
 }
