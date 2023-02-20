@@ -5,6 +5,14 @@
   font-family: "Open Sans", sans-serif;
 }
 
+body {
+  background-image: url(/img/background.jpg);
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #120000;
+}
+
 main {
   max-width: 900px;
   margin: 32px auto;
